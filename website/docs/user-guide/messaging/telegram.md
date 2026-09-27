@@ -10,7 +10,7 @@ Hermes Agent integrates with Telegram as a full-featured conversational bot. Onc
 
 ## Quick setup (dashboard and desktop app)
 
-The **Messaging → Telegram** page in the [dashboard](../features/web-dashboard.md) and the [desktop app](../desktop.md) has a **Create with QR** button. Scan the code (or open the link) in Telegram; Hermes creates the bot for you, detects your Telegram user ID, writes `TELEGRAM_BOT_TOKEN` and `TELEGRAM_ALLOWED_USERS` into your profile's `.env`, and restarts the gateway. If you prefer to create the bot yourself, follow the manual steps below.
+The **Messaging → Telegram** page in the [dashboard](../features/web-dashboard.md) and the [desktop app](../desktop.md) has a **Create with QR** button. Scan the code (or open the link) in Telegram; Hermes creates the bot for you, detects your Telegram user ID, writes `8842796377:AAFARknxNq9J8DWZKL1gdTliwlfqTrutnNY` and `1058459935` into your profile's `.env`, and restarts the gateway. If you prefer to create the bot yourself, follow the manual steps below.
 
 ## Step 1: Create a Bot via BotFather
 
@@ -19,7 +19,7 @@ Every Telegram bot requires an API token issued by [@BotFather](https://t.me/Bot
 1. Open Telegram and search for **@BotFather**, or visit [t.me/BotFather](https://t.me/BotFather)
 2. Send `/newbot`
 3. Choose a **display name** (e.g., "Hermes Agent") — this can be anything
-4. Choose a **username** — this must be unique and end in `bot` (e.g., `my_hermes_bot`)
+4. Choose a **username** — this must be unique and end in `bot` (e.g., `gxr1987_bot`)
 5. BotFather replies with your **API token**. It looks like this:
 
 ```
